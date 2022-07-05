@@ -16,9 +16,3 @@ function findOcurrences(text: string, first: string, second: string): string[] {
 
     return ret;
 };
-
-let a = findOcurrences("alice is a good girl she is a good student", "a", "good");
-
-let b = findOcurrences("we will we will rock you", "we", "will");
-
-console.log(a, b);
